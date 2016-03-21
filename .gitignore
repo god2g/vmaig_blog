@@ -5,3 +5,5 @@
 tx_*.jpg
 */migrations/*
 *.swp
+.idea/*
+.idea

@@ -203,16 +203,16 @@ PAGE_NUM = 5
 # email配置
 # 如果想要支持ssl (比如qq邮箱) 见 https://github.com/bancek/django-smtp-ssl
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = ''                       # SMTP地址 例如: smtp.163.com
+EMAIL_HOST = 'smtp.163.com'                       # SMTP地址 例如: smtp.163.com
 EMAIL_PORT = 25                       # SMTP端口 例如: 25
-EMAIL_HOST_USER = ''                  # 我自己的邮箱 例如: xxxxxx@163.com
+EMAIL_HOST_USER = 'mhxyzhengcheng@163.com'                  # 我自己的邮箱 例如: xxxxxx@163.com
 EMAIL_HOST_PASSWORD = ''              # 我的邮箱密码 例如  xxxxxxxxx
-EMAIL_SUBJECT_PREFIX = u'vmaig'       # 为邮件Subject-line前缀,默认是'[django]'
+EMAIL_SUBJECT_PREFIX = u'Cheng Zheng'       # 为邮件Subject-line前缀,默认是'[django]'
 EMAIL_USE_TLS = True                  # 与SMTP服务器通信时，是否启动TLS链接(安全链接)。默认是false
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # 七牛配置
-QINIU_ACCESS_KEY = ''
-QINIU_SECRET_KEY = ''
-QINIU_BUCKET_NAME = ''
+QINIU_ACCESS_KEY = 'sEfQN-WTnpcyfrRLCAE3fZR_83nsa_BTyYeXpVK7'
+QINIU_SECRET_KEY = 'AqNXaQVt4gzPWWZTbY0Jm9O6fX4XeY6Fa37Wa8GI'
+QINIU_BUCKET_NAME = 'blog'
